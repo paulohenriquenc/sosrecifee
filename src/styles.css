@@ -1,0 +1,191 @@
+*{
+
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+
+.container {
+
+    width: 100%;
+    margin: 0 auto;
+}
+
+.container-login {
+
+    width: 100%;
+    min-height: 100vh;
+    
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:end;
+
+    padding: 0px;
+
+    background-color: #fbdc51;
+
+    background-image: url(../src/assets/Boa_Viagem_\(2\)_-_Recife_-_Pernambuco\,_Brasil\ \(1\).jpg);
+    background-repeat: repeat;
+    background-size:100%
+
+    
+}
+
+.wrap-login {
+
+  width: 500px;
+  background-color: #044fa1;
+  border-radius: 0px;
+
+  overflow: hidden;
+  padding: 77px 55px 33px 55px;
+
+  box-shadow: 0 5px 10px 0px rgba(255, 255, 255, 0.2);
+}
+
+.login-form {
+
+  width: 100%;
+}
+
+.login-form-title {
+
+  display: block;
+  font-size: 30px;
+  color: azure;
+
+  line-height: 1.2;
+  text-align: center;
+}
+
+.login-form-title img {
+
+  width: 110px;
+
+}
+
+.wrap-input {
+
+  width: 100%;
+  position: relative;
+  border-bottom: 2px solid #adadad;
+  margin-bottom: 37px;
+}
+
+.input {
+
+  font-size: 15px;
+  color: #fff;
+  line-height: 1.2;
+  border: none;
+  display: block;
+
+  width: 100%;
+  height: 45px;
+
+  background-color: transparent;
+  
+  padding: 0 5px;
+}
+
+.focus-input{
+
+  position: absolute;
+  display: block;
+  width: 100%;
+  height: 100%;
+
+  top: 0;
+  left: 0;
+
+  pointer-events: none;
+  color: #adadad;
+
+}
+
+.input:focus {
+
+  outline: 0;
+
+}
+
+.input:focus + .focus-input::after {
+
+  top: -15px;
+}
+
+.input:focus + .focus-input::before {
+  width: 100%;
+}
+
+.has-val + .focus-input::after {
+
+  top: -15px;
+}
+
+.has-val + .focus-input::before {
+
+  width: 100%;
+}
+
+.container-login-form-btn {
+
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding-bottom: 13px;
+}
+
+.login-form-btn {
+  font-size: 15px;
+  border-radius: 10px;
+  color: #000000;
+
+  line-height: 1.2;
+
+  text-transform: uppercase;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 100%;
+  height: 50px;
+
+  background: -webkit-linear-gradient(to left, #fbdc51, #fbdc51);
+  background: -o-linear-gradient(to left, #fbdc51, #fbdc51);
+  background: -moz-linear-gradient(to left, #fbdc51, #fbdc51);
+  background: linear-gradient(to left, #fbdc51, #fbdc51);
+
+}
+
+.login-form-btn:hover {
+
+  cursor: pointer;
+}
+
+.text-center {
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  margin-top: 50px;
+
+}
+
+.txt1 {
+  font-size: 14px;
+  color: #fbff00;
+  line-height: 3.5;
+  padding-right: 2px;
+  text-decoration: none;
+}
+
+.txt2 {
+  font-size: 14px;
+  color: #ffffff;
+  line-height: 1.5;
+  text-decoration: none;
+}
